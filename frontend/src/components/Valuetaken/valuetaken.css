@@ -1,0 +1,39 @@
+.charts{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    width: 100%;
+}
+.percentage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.percentage h1{
+    display: flex;
+    justify-content: center;
+    font-size: 10rem;
+
+}
+@media screen and (max-width:1200px) {
+    .percentage h1{
+        
+        font-size: 6rem;
+    
+    } 
+}
+@media screen and (max-width:800px) {
+    .percentage h1{
+        
+        font-size: 5rem;
+    
+    } 
+}
+@media screen and (max-width:800px) {
+    .percentage h1{
+        
+        font-size: 3rem;
+    
+    } 
+}
